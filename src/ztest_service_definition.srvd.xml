@@ -3,14 +3,16 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <SRVD>
-    <METADATA>
-     <NAME>ZTEST_SERVICE_DEFINITION</NAME>
-     <VERSION>active</VERSION>
-     <DESCRIPTION>test service definition</DESCRIPTION>
-     <SOURCE_ORIGIN_DESCRIPTION>ABAP development tools</SOURCE_ORIGIN_DESCRIPTION>
-     <SRVD_SOURCE_TYPE>S</SRVD_SOURCE_TYPE>
-     <SRVD_SOURCE_TYPE_DESC>Service Definition</SRVD_SOURCE_TYPE_DESC>
-    </METADATA>
+    <NAME>ZTEST_SERVICE_DEFINITION</NAME>
+    <TYPE>SRVD/SRV</TYPE>
+    <DESCRIPTION>test service definition</DESCRIPTION>
+    <LANGUAGE>EN</LANGUAGE>
+    <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+    <SOURCE_URI>./ztest_service_definition/source/main</SOURCE_URI>
+    <SOURCE_TYPE>ABAP_SOURCE</SOURCE_TYPE>
+    <SOURCE_ORIGIN_DESCRIPTION>ABAP Development Tools</SOURCE_ORIGIN_DESCRIPTION>
+    <SRVD_SOURCE_TYPE>S</SRVD_SOURCE_TYPE>
+    <SRVD_SOURCE_TYPE_DESC>Service Definition</SRVD_SOURCE_TYPE_DESC>
    </SRVD>
   </asx:values>
  </asx:abap>
